@@ -90,6 +90,7 @@ class GridEscapeRouter:
 
 def answer(matrix):
             router = GridEscapeRouter(matrix,1)
+            
             return router.get_escape_route_length()
         
         
